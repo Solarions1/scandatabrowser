@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Test page</title>
+	<link rel="stylesheet" href="./public/css/main.css">
+
+</head>
+<style type="text/css">
+	
+	body{
+		background: black;
+		color: white;
+		font-family: sans-serif;
+		text-align: center;
+
+	}
+
+	#cont-deb: hover{
+		text-decoration: overline;
+
+	}
+</style>
+<body>
+	<h1>Datascan test</h1>
+	<div id="cont-deb">
+		
+		<ul id="datalist">
+			<li id="namedata"></li>
+			<li id="metaxp"></li>
+			<li id="mdo"></li>
+			<li id="token"></li>
+			<li id="timevalidate"></li>
+			<br>
+			<p id="generate-on"></p>
+		</ul>
+
+	</div>
+	<script type="text/javascript" src="./mid.js"></script>
+	<button onclick="generate()">Run</button>
+
+</body>
+<footer>QSafe</footer>
+</html>

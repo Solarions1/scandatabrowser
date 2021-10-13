@@ -1,0 +1,23 @@
+{
+  "name": "scandatabrowser",
+  "version": "2.1.2",
+  "description": "package data front/end ",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solarions1/scandatabrowser.git"
+  },
+  "author": "Qsafe Cybersecurity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Solarions1/scandatabrowser/issues"
+  },
+  "homepage": "https://github.com/Solarions1/scandatabrowser#readme"
+}
